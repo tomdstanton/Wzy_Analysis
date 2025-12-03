@@ -1,13 +1,24 @@
 [project]
 name = "wzy-analysis"
 version = "0.1.0"
-description = "Add your description here"
+description = "Redefining bacterial Wzy polymerase families via three-dimensional structure-based clustering"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "notebook>=7.4.5",
+    # Data manipulation
     "pandas>=2.3.2",
+    "python-calamine==0.5.3",
+    # Mathmatical and statistical operations
+    "numpy",
+    "scipy",
+    # Dimentionality reductionn and Clustering
+    "scikit-learn",
     "scikit-network>=0.33.3",
-    "seaborn>=0.13.2",
     "umap-learn>=0.5.9.post2",
+    # Plotting
+    "seaborn>=0.13.2",
+    # HMM Construction
+    "pyfamsa==0.6.1",
+    "pyhmmer==0.11.1",
+    "pytrimal==0.8.4"
 ]
