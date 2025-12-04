@@ -1,5 +1,7 @@
 HMMER3/f [3.4 | Aug 2023]
 NAME  WzyB_trimmed
+ACC   WzyB.2
+DESC  aligned with pyfamsa v0.6.1; trimmed with pytrimal v0.8.4 at 0.5 identity threshold and trimmed with the automated1 method; built with pyhmmer v0.11.1
 LENG  204
 ALPH  amino
 RF    no
@@ -7,8 +9,8 @@ MM    no
 CONS  yes
 CS    no
 MAP   yes
-DATE  Mon Dec  1 14:25:33 2025
-COM   [1] /Users/tsta0015/Programming/Wzy_Analysis/.venv/lib/python3.12/site-packages/ipykernel_launcher.py -f /Users/tsta0015/Library/Jupyter/runtime/kernel-663c0415-e0e9-4f22-8a43-15c87a3d9595.json
+DATE  Thu Dec  4 15:20:36 2025
+COM   [1] /Users/tsta0015/Programming/Wzy_Analysis/.venv/lib/python3.12/site-packages/ipykernel_launcher.py -f /Users/tsta0015/Library/Jupyter/runtime/kernel-29fe22cf-2b58-46a1-a501-3878541516eb.json
 NSEQ  147
 EFFN  18.253876
 CKSUM 2270952066

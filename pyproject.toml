@@ -5,18 +5,20 @@ description = "Redefining bacterial Wzy polymerase families via three-dimensiona
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    # Compression
+    'zstandard',
     # Data manipulation
     "pandas>=2.3.2",
     "python-calamine==0.5.3",
     # Mathmatical and statistical operations
     "numpy",
     "scipy",
+    # Plotting
+    "seaborn>=0.13.2",
     # Dimentionality reductionn and Clustering
     "scikit-learn",
     "scikit-network>=0.33.3",
     "umap-learn>=0.5.9.post2",
-    # Plotting
-    "seaborn>=0.13.2",
     # HMM Construction
     "pyfamsa==0.6.1",
     "pyhmmer==0.11.1",
