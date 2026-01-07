@@ -24,4 +24,7 @@ dependencies = [
     "pyhmmer==0.11.1",
     "pytrimal==0.8.4",
     "notebook>=7.5.0",
+    "peptides==0.5.0",
+    "tabulate>=0.9.0",
+    "kaptive==3.1.0",
 ]
